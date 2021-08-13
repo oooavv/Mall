@@ -11,6 +11,7 @@ namespace Mall.Controllers
         // GET: Home
         public ActionResult Index()
         {
+            //123
             return View();
         }
     }
