@@ -12,6 +12,7 @@ namespace Mall.Controllers
         public ActionResult Index()
         {
             //123
+            //000
             return View();
         }
     }
