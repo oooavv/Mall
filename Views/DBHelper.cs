@@ -11,7 +11,7 @@ namespace Employee
     {
         public static int ExecuteNonQuery(string sql)
         {
-            string son = "server = .;uid = sa;pwd = 123456;database = Retailer";
+            string son = "server = .;uid = sa;pwd = 123456;database = Shop";
             SqlConnection con = new SqlConnection(son);
 
             try
@@ -36,7 +36,7 @@ namespace Employee
 
         public static object ExecuteScalar(string sql)
         {
-            string son = "server = .;uid = sa;pwd = 123456;database = Retailer";
+            string son = "server = .;uid = sa;pwd = 123456;database = Shop";
             SqlConnection con = new SqlConnection(son);
             SqlCommand cmd = new SqlCommand(sql, con);
 
@@ -58,7 +58,7 @@ namespace Employee
 
         public static SqlDataReader ExecuteReader(string sql)
         {
-            string son = "server = .;uid = sa;pwd = 123456;database = Retailer";
+            string son = "server = .;uid = sa;pwd = 123456;database = Shop";
             SqlConnection con = new SqlConnection(son);
             SqlCommand cmd = new SqlCommand(sql, con);
 
